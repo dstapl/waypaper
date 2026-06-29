@@ -276,7 +276,7 @@ def change_with_awww(image_path: Path, cf: Config, monitor: str):
             "fill": "crop",
             "fit": "fit",
             "center": "no",
-            "stretch": "crop",
+            "stretch": "stretch",
             "tile": "no",
             }
     fill = fill_types[cf.fill_option.lower()]
